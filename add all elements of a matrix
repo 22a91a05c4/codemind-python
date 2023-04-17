@@ -1,0 +1,10 @@
+r,c=map(int,input().split())
+mat=[]
+s=0
+for i in range(r):
+    sl=list(map(int,input().split()))
+    mat.append(sl)
+for j in range(r):
+    for k in range(c):
+        s=s+mat[j][k]
+print(s)
