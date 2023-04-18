@@ -1,0 +1,11 @@
+a=int(input())
+b=list(map(int,str(a)))
+s=0
+f=1
+for i in b:
+    s=s+i
+    f=f*i
+if f==s:
+    print('Spy Number')
+else:
+    print('Not Spy Number')
