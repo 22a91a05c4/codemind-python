@@ -11,3 +11,4 @@ if c>0:
     print(min(k))
 else:
     print("-1")
+             
