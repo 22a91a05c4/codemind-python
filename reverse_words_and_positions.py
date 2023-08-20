@@ -1,0 +1,9 @@
+n=list(map(str,input().split()))
+k=[]
+m=len(n)
+i=m-1
+while(i>=0):
+    b=n[i][::-1]
+    k.append(b)
+    i=i-1
+print(*k)
