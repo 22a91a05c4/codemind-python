@@ -1,10 +1,13 @@
-a=int(input())
-s=0
-lst=list(map(int,input().split()))
-for i in lst:
-    if i<a:
-        s+=1
-if(s==a):
-    print("YES")
-else:
-    print("NO")
+n=int(input())
+ls=list(map(int,input().split()))
+c=0
+for i in range(n):
+    if ls[i]<n:
+        c+=1
+for i in range(n):
+    if c==n:
+        print("YES")
+        break
+    else:
+        print("NO")
+        break
