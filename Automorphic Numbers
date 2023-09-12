@@ -1,0 +1,9 @@
+a=int(input())
+b=a*a
+l=len(str(a))
+h=10**l
+k=b%h
+if k==a:
+    print("Automorphic Number")
+else:
+    print("Not an Automorphic Number")
