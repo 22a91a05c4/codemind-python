@@ -1,0 +1,17 @@
+def fac(a):
+    f=1
+    for i in range(a,1,-1):
+        f=f*i
+    return f
+a=int(input())
+s=0
+t=a
+while(a):
+    r=a%10
+    g=fac(r)
+    s=s+g
+    a=a//10
+if s==t:
+    print("The number {} is a strong number".format(t))
+else:
+    print("The number {} is not a strong number".format(t))
